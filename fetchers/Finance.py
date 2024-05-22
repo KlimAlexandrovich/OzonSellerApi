@@ -3,7 +3,7 @@ from aiohttp import ClientSession
 import json
 from pandas import to_datetime, Timestamp
 from dateutil.relativedelta import relativedelta
-from OZON.OzonSellerAPI.tools.functions import manage_asyncio_wait
+from ..tools.functions import manage_asyncio_wait
 
 
 class AsyncFinanceRealizationList:

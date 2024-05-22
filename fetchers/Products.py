@@ -2,7 +2,7 @@ import requests
 import json
 from typing import Dict, AnyStr, List, Tuple
 from copy import deepcopy
-from OZON.OzonSellerAPI.tools.functions import flatten_dict
+from ..tools.functions import flatten_dict
 
 
 class Products:

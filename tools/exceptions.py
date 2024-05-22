@@ -9,6 +9,3 @@ class APIConnectionError(ConnectionError):
     def __init__(self):
         message = f"Ошибка подключения к сети."
         super().__init__(message)
-
-
-# raise APIConnectionError()

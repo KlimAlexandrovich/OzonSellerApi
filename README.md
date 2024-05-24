@@ -1,4 +1,4 @@
-# OzonSellerApi
+# ozon_seller_api
 
 ___
 Этот проект предоставляет набор функций и классов Python для работы с API Ozon Seller и Ozon Performance API. Он
@@ -28,14 +28,14 @@ ___
 установить зависимости:
 
 - https://github.com/KlimAlexandrovich/OzonSellerApi.git
-- cd OzonSellerApi
+- cd ozon_seller_api
 - pip install -r requirements.txt
 
 ___
 
 ### Структура пакета:
 
-* `OzonSellerApi`: Основной модуль пакета.
+* `ozon_seller_api`: Основной модуль пакета.
     * `annotations`: Аннотации для получаемых по API данных.
         * `data.py`
     * `fetchers`: Классы и функции для получения данных.
